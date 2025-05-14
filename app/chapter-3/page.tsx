@@ -29,7 +29,7 @@ export default function ChapterThree() {
         <div className="grid gap-8 md:grid-cols-3">
           <Card className="md:col-span-2 border-none shadow-lg bg-gradient-to-br from-background to-muted/30">
             <CardContent className="p-6">
-              <div className="prose prose-lg dark:prose-invert">
+              <div className="prose prose-lg dark:prose-invert chapter-content">
                 <p>
                   The twins arrived at a crystal garden where everything was arranged in perfect, rigid patterns.
                   Entropy immediately began to dance, twirling and leaping through the garden.
