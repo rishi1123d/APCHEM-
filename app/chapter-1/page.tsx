@@ -29,7 +29,7 @@ export default function ChapterOne() {
         <div className="grid gap-8 md:grid-cols-3">
           <Card className="md:col-span-2 border-none shadow-lg bg-gradient-to-br from-background to-muted/30">
             <CardContent className="p-6">
-              <div className="prose prose-lg dark:prose-invert">
+              <div className="prose prose-lg dark:prose-invert chapter-content">
                 <p>
                   In the colorful land of Chemisphere Kingdom, two siblings were known far and wide:{" "}
                   <strong className="text-warm">Enthalpy</strong>, a warm-hearted character who always carried a glowing
