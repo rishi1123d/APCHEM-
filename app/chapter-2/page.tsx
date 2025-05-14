@@ -29,7 +29,7 @@ export default function ChapterTwo() {
         <div className="grid gap-8 md:grid-cols-3">
           <Card className="md:col-span-2 border-none shadow-lg bg-gradient-to-br from-background to-muted/30">
             <CardContent className="p-6">
-              <div className="prose prose-lg dark:prose-invert">
+              <div className="prose prose-lg dark:prose-invert chapter-content">
                 <p>
                   As the Thermal Twins journeyed through a meadow, they spotted two cloud sprites engaged in a fierce
                   tug-of-war with what looked like a giant thermometer.
