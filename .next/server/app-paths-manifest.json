@@ -1,6 +1,8 @@
 {
   "/chapter-3/page": "app/chapter-3/page.js",
+  "/lab-notes/page": "app/lab-notes/page.js",
+  "/art-gallery/page": "app/art-gallery/page.js",
+  "/teacher-zone/page": "app/teacher-zone/page.js",
   "/chapter-1/page": "app/chapter-1/page.js",
-  "/page": "app/page.js",
   "/chapter-2/page": "app/chapter-2/page.js"
 }
