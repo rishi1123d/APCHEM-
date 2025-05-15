@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import { getImagePath } from "@/lib/utils"
 
 export default function Home() {
   return (
@@ -47,7 +48,7 @@ export default function Home() {
           >
             <div className="mx-auto w-full max-w-4xl">
               <Image
-                src="/images/thermal-twins-hero.png"
+                src={getImagePath("/images/thermal-twins-hero.png")}
                 alt="The Thermal Twins: Enthalpy in warm orange with a flask showing ΔH, and Entropy in cool teal with swirling patterns"
                 width={1200}
                 height={1200}
