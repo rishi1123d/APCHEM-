@@ -10,8 +10,7 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  // When using a custom domain, we don't need basePath
-  // Any trailing slashes are important here - follow the exact format
+  // Set trailing slash to true for better compatibility with static hosting
   trailingSlash: true,
 }
 

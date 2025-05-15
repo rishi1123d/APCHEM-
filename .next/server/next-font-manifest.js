@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/rishikanaparti/chem/APCHEM-/app/layout":["static/media/ef8217b34764eb74-s.p.woff2","static/media/a34f9d1faa5f3315-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/rishikanaparti/chem/APCHEM-/app/layout":["static/media/a34f9d1faa5f3315-s.p.woff2","static/media/ef8217b34764eb74-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
