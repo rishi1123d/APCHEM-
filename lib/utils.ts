@@ -6,6 +6,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getImagePath(path: string) {
-  // With custom domain, we don't need to add a prefix
+  // With custom domain, just return the path as is
   return path
 }
