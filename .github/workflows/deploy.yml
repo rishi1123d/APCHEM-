@@ -51,12 +51,26 @@ jobs:
         with:
           static_site_generator: next
 
+      - name: List directory structure
+        run: |
+          echo "Public directory contents:"
+          ls -la public/
+          echo "Public/images directory contents:"
+          ls -la public/images/ || echo "Images directory not found"
+          
       - name: Build 🔧
         run: npm run build
         env:
           NODE_ENV: production
           # Add more debug info
           DEBUG: '*'
+          
+      - name: List build output
+        run: |
+          echo "Build output directory structure:"
+          ls -la out/
+          echo "Images directory in output:"
+          ls -la out/images/ || echo "No images directory in output"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
