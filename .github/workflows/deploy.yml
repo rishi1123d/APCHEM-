@@ -41,7 +41,7 @@ jobs:
           npm --version
 
       - name: Install dependencies 📦
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
         
       - name: List installed packages
         run: npm list --depth=0
