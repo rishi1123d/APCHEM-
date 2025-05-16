@@ -3,35 +3,35 @@ import IllustrationCard from "@/components/illustration-card"
 
 const illustrations = [
   {
-    src: "/images/art-gallery-fixed/thermal-twins.jpg",
+    src: "/placeholder.svg?height=720&width=1280",
     alt: "The Thermal Twins",
     title: "The Thermal Twins",
     description:
       "Enthalpy carries a glowing orb representing energy (ΔH), while Entropy is surrounded by swirling patterns representing disorder (ΔS). Their complementary colors (warm orange and cool teal) represent the balance between energy and disorder in thermodynamic systems.",
   },
   {
-    src: "/images/art-gallery-fixed/gibbs-guide.jpg",
+    src: "/placeholder.svg?height=720&width=1280",
     alt: "Gibbs the Guide",
     title: "Gibbs the Guide",
     description:
       "The wise turtle's shell is shaped like the Gibbs free energy equation (ΔG = ΔH - TΔS). His slow, deliberate movement represents how thermodynamic systems seek their lowest energy state. The compass he carries symbolizes how ΔG guides the direction of spontaneous processes.",
   },
   {
-    src: "/images/art-gallery-fixed/sunny-shady.jpg",
+    src: "/placeholder.svg?height=720&width=1280",
     alt: "Sunny and Shady",
     title: "Sunny and Shady",
     description:
       "Sunny glows orange, representing exothermic reactions that release heat (negative ΔH). Shady glows blue, representing endothermic reactions that absorb heat (positive ΔH). Their tug-of-war with a thermometer rope visualizes how energy transfer affects temperature.",
   },
   {
-    src: "/images/art-gallery-fixed/crystal-garden.jpg",
+    src: "/placeholder.svg?height=720&width=1280",
     alt: "The Crystal Garden",
     title: "The Crystal Garden",
     description:
       "The rigid crystal patterns represent low entropy (high order). As Entropy dances through the garden, the crystals rearrange into beautiful random patterns, visualizing increasing entropy (disorder). This illustrates the Second Law of Thermodynamics: isolated systems naturally tend toward increasing entropy.",
   },
   {
-    src: "/images/art-gallery-fixed/three-valleys.jpg",
+    src: "/placeholder.svg?height=720&width=1280",
     alt: "The Three Valleys",
     title: "The Three Valleys",
     description:
