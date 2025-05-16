@@ -41,7 +41,7 @@ jobs:
           npm --version
 
       - name: Install dependencies 📦
-        run: npm ci
+        run: npm ci --legacy-peer-deps
         
       - name: List installed packages
         run: npm list --depth=0
@@ -59,7 +59,7 @@ jobs:
           ls -la public/images/ || echo "Images directory not found"
           
       - name: Build 🔧
-        run: npm run build
+        run: npm run build --legacy-peer-deps
         env:
           NODE_ENV: production
           # Add more debug info
