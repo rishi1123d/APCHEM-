@@ -103,9 +103,25 @@ export default function ChapterTwo() {
   )
 }
 
-function AskGibbsContent({ title, equation, explanation, chapterNumber = 1 }) {
+interface AskGibbsContentProps {
+  title: string;
+  equation: string;
+  explanation: string;
+  chapterNumber?: number;
+}
+
+interface Question {
+  question: string;
+  answer: string;
+}
+
+type PreloadedQuestions = {
+  [key: number]: Question[];
+}
+
+function AskGibbsContent({ title, equation, explanation, chapterNumber = 1 }: AskGibbsContentProps) {
   // Preloaded questions for each chapter
-  const preloadedQuestions = {
+  const preloadedQuestions: PreloadedQuestions = {
     1: [
       {
         question: "What is Gibbs free energy?",
@@ -187,7 +203,7 @@ function AskGibbsContent({ title, equation, explanation, chapterNumber = 1 }) {
 
         <div className="space-y-4">
           <h4 className="font-fredoka text-sm">Common Questions:</h4>
-          {questions.map((q, i) => (
+          {questions.map((q: Question, i: number) => (
             <div key={i} className="space-y-1">
               <h5 className="font-medium text-sm">{q.question}</h5>
               <p className="text-xs text-muted-foreground">{q.answer}</p>
