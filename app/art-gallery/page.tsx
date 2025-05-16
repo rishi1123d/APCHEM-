@@ -3,46 +3,39 @@ import IllustrationCard from "@/components/illustration-card"
 
 const illustrations = [
   {
-    src: "/placeholder.svg?height=720&width=1280",
+    src: "/images/art-gallery/thermal-twins.png",
     alt: "The Thermal Twins",
     title: "The Thermal Twins",
     description:
       "Enthalpy carries a glowing orb representing energy (ΔH), while Entropy is surrounded by swirling patterns representing disorder (ΔS). Their complementary colors (warm orange and cool teal) represent the balance between energy and disorder in thermodynamic systems.",
   },
   {
-    src: "/placeholder.svg?height=720&width=1280",
+    src: "/images/art-gallery/gibbs-guide.png",
     alt: "Gibbs the Guide",
     title: "Gibbs the Guide",
     description:
       "The wise turtle's shell is shaped like the Gibbs free energy equation (ΔG = ΔH - TΔS). His slow, deliberate movement represents how thermodynamic systems seek their lowest energy state. The compass he carries symbolizes how ΔG guides the direction of spontaneous processes.",
   },
   {
-    src: "/placeholder.svg?height=720&width=1280",
+    src: "/images/art-gallery/sunny-shady.png",
     alt: "Sunny and Shady",
     title: "Sunny and Shady",
     description:
       "Sunny glows orange, representing exothermic reactions that release heat (negative ΔH). Shady glows blue, representing endothermic reactions that absorb heat (positive ΔH). Their tug-of-war with a thermometer rope visualizes how energy transfer affects temperature.",
   },
   {
-    src: "/placeholder.svg?height=720&width=1280",
+    src: "/images/art-gallery/crystal-garden.png",
     alt: "The Crystal Garden",
     title: "The Crystal Garden",
     description:
       "The rigid crystal patterns represent low entropy (high order). As Entropy dances through the garden, the crystals rearrange into beautiful random patterns, visualizing increasing entropy (disorder). This illustrates the Second Law of Thermodynamics: isolated systems naturally tend toward increasing entropy.",
   },
   {
-    src: "/placeholder.svg?height=720&width=1280",
+    src: "/images/art-gallery/three-valleys.png",
     alt: "The Three Valleys",
     title: "The Three Valleys",
     description:
       "The hot, cold, and temperate valleys represent how temperature affects the Gibbs equation. The steaming hot valley (high T) shows entropy dominating, the freezing cold valley (low T) shows enthalpy dominating, and the temperate valley (moderate T) shows the balance between the two factors.",
-  },
-  {
-    src: "/placeholder.svg?height=720&width=1280",
-    alt: "Captain Calorimeter",
-    title: "Captain Calorimeter",
-    description:
-      "Captain Calorimeter's cape is patterned like a coffee-cup calorimeter, with ripples representing water. The thermometer he carries visualizes the equation q = mcΔT, showing how heat transfer is measured through temperature change.",
   },
 ]
 
