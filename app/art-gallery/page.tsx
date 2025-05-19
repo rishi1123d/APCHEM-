@@ -3,39 +3,34 @@ import IllustrationCard from "@/components/illustration-card"
 
 const illustrations = [
   {
-    src: "/images/art-gallery-jpg/thermal-twins.jpg",
-    alt: "The Thermal Twins",
-    title: "The Thermal Twins",
-    description:
-      "Enthalpy carries a glowing orb representing energy (ΔH), while Entropy is surrounded by swirling patterns representing disorder (ΔS). Their complementary colors (warm orange and cool teal) represent the balance between energy and disorder in thermodynamic systems.",
+    src: "/images/art-gallery/@Colorful Abstract Dancing Image Dance Studio Logo (1).jpg",
+    alt: "Colorful Abstract Dancing Image 1",
+    title: "Colorful Abstract Dancing Image 1",
+    description: "A vibrant abstract dance-themed illustration.",
   },
   {
-    src: "/images/art-gallery-jpg/gibbs-guide.jpg",
-    alt: "Gibbs the Guide",
-    title: "Gibbs the Guide",
-    description:
-      "The wise turtle's shell is shaped like the Gibbs free energy equation (ΔG = ΔH - TΔS). His slow, deliberate movement represents how thermodynamic systems seek their lowest energy state. The compass he carries symbolizes how ΔG guides the direction of spontaneous processes.",
+    src: "/images/art-gallery/@Colorful Abstract Dancing Image Dance Studio Logo (2).jpg",
+    alt: "Colorful Abstract Dancing Image 2",
+    title: "Colorful Abstract Dancing Image 2",
+    description: "A vibrant abstract dance-themed illustration.",
   },
   {
-    src: "/images/art-gallery-jpg/sunny-shady.jpg",
-    alt: "Sunny and Shady",
-    title: "Sunny and Shady",
-    description:
-      "Sunny glows orange, representing exothermic reactions that release heat (negative ΔH). Shady glows blue, representing endothermic reactions that absorb heat (positive ΔH). Their tug-of-war with a thermometer rope visualizes how energy transfer affects temperature.",
+    src: "/images/art-gallery/@Colorful Abstract Dancing Image Dance Studio Logo (3).jpg",
+    alt: "Colorful Abstract Dancing Image 3",
+    title: "Colorful Abstract Dancing Image 3",
+    description: "A vibrant abstract dance-themed illustration.",
   },
   {
-    src: "/images/art-gallery-jpg/crystal-garden.jpg",
-    alt: "The Crystal Garden",
-    title: "The Crystal Garden",
-    description:
-      "The rigid crystal patterns represent low entropy (high order). As Entropy dances through the garden, the crystals rearrange into beautiful random patterns, visualizing increasing entropy (disorder). This illustrates the Second Law of Thermodynamics: isolated systems naturally tend toward increasing entropy.",
+    src: "/images/art-gallery/@Colorful Abstract Dancing Image Dance Studio Logo (4).jpg",
+    alt: "Colorful Abstract Dancing Image 4",
+    title: "Colorful Abstract Dancing Image 4",
+    description: "A vibrant abstract dance-themed illustration.",
   },
   {
-    src: "/images/art-gallery-jpg/three-valleys.jpg",
-    alt: "The Three Valleys",
-    title: "The Three Valleys",
-    description:
-      "The hot, cold, and temperate valleys represent how temperature affects the Gibbs equation. The steaming hot valley (high T) shows entropy dominating, the freezing cold valley (low T) shows enthalpy dominating, and the temperate valley (moderate T) shows the balance between the two factors.",
+    src: "/images/art-gallery/@Colorful Abstract Dancing Image Dance Studio Logo.jpg",
+    alt: "Colorful Abstract Dancing Image 5",
+    title: "Colorful Abstract Dancing Image 5",
+    description: "A vibrant abstract dance-themed illustration.",
   },
 ]
 
